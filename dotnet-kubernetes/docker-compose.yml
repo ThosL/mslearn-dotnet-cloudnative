@@ -9,7 +9,7 @@ services:
       dockerfile: DockerfileStore
     environment: 
       - ProductEndpoint=http://backend:8080
-      - ImagePrefix=http://localhost
+      - ImagePrefix=https://reimagined-space-fishstick-j94g65pv6w4h4g4-5200.app.github.dev/images
     ports:
       - "32000:8080"
     depends_on: 
